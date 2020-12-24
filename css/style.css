@@ -1,0 +1,51 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+#img{
+    margin-top: 4px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 0%;
+    
+}
+#taste{
+    background-color:  #ff4c68;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.d p{
+    font-family:'ubuntu',sans-serif;
+}
+.container-fluid{
+    padding: 2% 5%;
+}
+.card {
+       position: relative;
+    display: inline-block;
+   }
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+#footer{
+    background-color: black;
+    color:grey;
+    text-align: center;
+}
